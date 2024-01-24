@@ -1,4 +1,6 @@
-# sdlpal_edit
+# sdlpal_edit_expansion
+# 注意此项目为 sdlpal_edit 的直接 Fork，原项目请前往以下链接获取：
+# https://github.com/wd22222222/sdlpal_edit.git
 #建立此项目的是以开源项目sdlpal为基础，编制一款全新的综合游戏数据编辑软件，通过对数据修改，可生成全新的游戏，实现全新的游戏体验，
 #
 #功能描述：
