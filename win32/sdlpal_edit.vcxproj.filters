@@ -1,0 +1,563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sdlpal">
+      <UniqueIdentifier>{73866873-821b-4f7b-9f26-bafa235c6e63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="adplug">
+      <UniqueIdentifier>{55fc2bd4-5fb0-4993-9719-48b147da7bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="adplug\dosbox">
+      <UniqueIdentifier>{37d75abf-9bba-41c0-9c56-7007cc715877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="adplug\mame">
+      <UniqueIdentifier>{46575755-090e-4ed2-9c2e-126b98c45136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="adplug\nuked">
+      <UniqueIdentifier>{cb4c714d-caff-4951-be24-36a26500752d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor">
+      <UniqueIdentifier>{e71e1bd4-bc2c-4d5b-9a05-239087da6aad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libmad">
+      <UniqueIdentifier>{fa3f101f-bb86-4db1-aec3-b2569c455258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="native_midi">
+      <UniqueIdentifier>{9d1daa83-861f-4b6e-bbe3-136014521c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glad">
+      <UniqueIdentifier>{f1ea6adb-8112-4104-b95b-0a7d80364ebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gridctrl">
+      <UniqueIdentifier>{021d82f4-39fa-4c70-9d7a-5fc71ad93530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources Files">
+      <UniqueIdentifier>{9096e5d9-82e6-4fca-8d10-f51831c481d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\caviplay.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cbattle.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cbattlebase.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CConfig.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cenemy.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cfight.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cgameui.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cgl_render.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cgl_texture.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cmap.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cmenu.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cmp3play.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpalapp.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpalbaseio.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpalevent.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CPalMain.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpalui.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cplayer.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cres.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cscene.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cscript.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\csdlscreen.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\csound.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cuibattle.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\midiplay.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pal1.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\yj_compress.cpp">
+      <Filter>sdlpal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\adplug\binfile.cpp">
+      <Filter>adplug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\adplug\binio.cpp">
+      <Filter>adplug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\adplug\dosbox_opls.cpp">
+      <Filter>adplug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\adplug\emuopls.cpp">
+      <Filter>adplug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\adplug\fprovide.cpp">
+      <Filter>adplug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\adplug\mame_opls.cpp">
+      <Filter>adplug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\adplug\nuked_opl.c">
+      <Filter>adplug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\adplug\player.cpp">
+      <Filter>adplug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\adplug\rix.cpp">
+      <Filter>adplug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\adplug\surroundopl.cpp">
+      <Filter>adplug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\CDeployOnTheMap.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\CEditorApp.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\CEditorAppDlg.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\CFileDir.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\CGetLing.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\CGetPalData.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\CListScriptEntry.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\cMap_Dlg.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\CMapList.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\CPalMapEdit.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\cScriptCaller.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\CsDataGrid.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\CsListCtrl.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\CsTree.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\MapPict_Dlg.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\NoPackedPict_Dlg.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\pack.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\PackedPict_Dlg.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\editor\stdafx.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libmad\bit.c">
+      <Filter>libmad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libmad\decoder.c">
+      <Filter>libmad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libmad\fixed.c">
+      <Filter>libmad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libmad\frame.c">
+      <Filter>libmad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libmad\huffman.c">
+      <Filter>libmad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libmad\layer3.c">
+      <Filter>libmad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libmad\layer12.c">
+      <Filter>libmad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libmad\music_mad.c">
+      <Filter>libmad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libmad\resampler.c">
+      <Filter>libmad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libmad\stream.c">
+      <Filter>libmad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libmad\synth.c">
+      <Filter>libmad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libmad\timer.c">
+      <Filter>libmad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\native_midi\native_midi.cpp">
+      <Filter>native_midi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\native_midi\native_midi_common.c">
+      <Filter>native_midi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rd\glad\glad.c">
+      <Filter>glad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rd\GridCtrl_src\GridCell.cpp">
+      <Filter>gridctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rd\GridCtrl_src\GridCellBase.cpp">
+      <Filter>gridctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rd\GridCtrl_src\GridCtrl.cpp">
+      <Filter>gridctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rd\GridCtrl_src\GridDropTarget.cpp">
+      <Filter>gridctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rd\GridCtrl_src\InPlaceEdit.cpp">
+      <Filter>gridctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rd\GridCtrl_src\TitleTip.cpp">
+      <Filter>gridctrl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\caviplay.h">
+      <Filter>sdlpal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cbattle.h">
+      <Filter>sdlpal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cbattlebase.h">
+      <Filter>sdlpal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CConfig.h">
+      <Filter>sdlpal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cenemy.h">
+      <Filter>sdlpal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cfight.h">
+      <Filter>sdlpal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cgameui.h">
+      <Filter>sdlpal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cgl_render.h">
+      <Filter>sdlpal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cgl_texture.h">
+      <Filter>sdlpal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\command.h">
+      <Filter>sdlpal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpalapp.h">
+      <Filter>sdlpal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpalbaseio.h">
+      <Filter>sdlpal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpalevent.h">
+      <Filter>sdlpal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CPalMain.h">
+      <Filter>sdlpal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpalui.h">
+      <Filter>sdlpal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cscene.h">
+      <Filter>sdlpal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cscript.h">
+      <Filter>sdlpal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\csdlscreen.h">
+      <Filter>sdlpal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\csound.h">
+      <Filter>sdlpal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cuibattle.h">
+      <Filter>sdlpal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\palerror.h">
+      <Filter>sdlpal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\palgpgl.h">
+      <Filter>sdlpal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\adplug\binfile.h">
+      <Filter>adplug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\adplug\binio.h">
+      <Filter>adplug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\adplug\convertopl.h">
+      <Filter>adplug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\adplug\dosbox_opls.h">
+      <Filter>adplug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\adplug\emuopls.h">
+      <Filter>adplug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\adplug\fprovide.h">
+      <Filter>adplug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\adplug\mame_opls.h">
+      <Filter>adplug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\adplug\nuked_opl.h">
+      <Filter>adplug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\adplug\opl.h">
+      <Filter>adplug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\adplug\opltypes.h">
+      <Filter>adplug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\adplug\player.h">
+      <Filter>adplug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\adplug\rix.h">
+      <Filter>adplug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\adplug\surroundopl.h">
+      <Filter>adplug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\adplug\nuked\opl3.c.h">
+      <Filter>adplug\nuked</Filter>
+    </ClInclude>
+    <ClInclude Include="..\adplug\nuked\opl3.h">
+      <Filter>adplug\nuked</Filter>
+    </ClInclude>
+    <ClInclude Include="..\adplug\mame\fmopl.cpp.h">
+      <Filter>adplug\mame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\adplug\mame\fmopl.h">
+      <Filter>adplug\mame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\adplug\mame\mame.h">
+      <Filter>adplug\mame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\adplug\mame\ymf262.cpp.h">
+      <Filter>adplug\mame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\adplug\mame\ymf262.h">
+      <Filter>adplug\mame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\adplug\dosbox\dbopl.cpp.h">
+      <Filter>adplug\dosbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\adplug\dosbox\dbopl.h">
+      <Filter>adplug\dosbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\adplug\dosbox\dosbox.h">
+      <Filter>adplug\dosbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\adplug\dosbox\opl.cpp.h">
+      <Filter>adplug\dosbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\adplug\dosbox\opl.h">
+      <Filter>adplug\dosbox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\CDeployOnTheMap.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\CEditorApp.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\CEditorAppDlg.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\CFileDir.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\CGetLing.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\CGetPalData.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\CListScriptEntry.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\cMap_Dlg.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\CMapList.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\CPalMapEdit.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\cScriptCaller.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\CsDataGrid.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\CsListCtrl.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\CsTree.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\CTestData.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\MapPict_Dlg.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\NoPackedPict_Dlg.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\PackedPict_Dlg.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\stdafx.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\targetver.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libmad\bit.h">
+      <Filter>libmad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libmad\decoder.h">
+      <Filter>libmad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libmad\fixed.h">
+      <Filter>libmad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libmad\frame.h">
+      <Filter>libmad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libmad\huffman.h">
+      <Filter>libmad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libmad\layer3.h">
+      <Filter>libmad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libmad\layer12.h">
+      <Filter>libmad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libmad\libmad_config.h">
+      <Filter>libmad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libmad\libmad_global.h">
+      <Filter>libmad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libmad\mad.h">
+      <Filter>libmad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libmad\music_mad.h">
+      <Filter>libmad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libmad\resampler.h">
+      <Filter>libmad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libmad\stream.h">
+      <Filter>libmad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libmad\synth.h">
+      <Filter>libmad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libmad\timer.h">
+      <Filter>libmad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\native_midi\native_midi.h">
+      <Filter>native_midi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\native_midi\native_midi_common.h">
+      <Filter>native_midi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\glad\glad.h">
+      <Filter>glad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\GridCtrl_src\CellRange.h">
+      <Filter>gridctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\GridCtrl_src\GridCell.h">
+      <Filter>gridctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\GridCtrl_src\GridCellBase.h">
+      <Filter>gridctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\GridCtrl_src\GridCtrl.h">
+      <Filter>gridctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\GridCtrl_src\GridDropTarget.h">
+      <Filter>gridctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\GridCtrl_src\InPlaceEdit.h">
+      <Filter>gridctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\GridCtrl_src\MemDC.h">
+      <Filter>gridctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\GridCtrl_src\TitleTip.h">
+      <Filter>gridctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\editor\resource.h">
+      <Filter>Resources Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\editor\sdlpal_edit.rc">
+      <Filter>Resources Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\sdlpal_edit.ico" />
+  </ItemGroup>
+</Project>
